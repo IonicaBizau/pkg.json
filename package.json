@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/IonicaBizau/package.json#readme",
   "dependencies": {
+    "git-package-json": "^1.1.0",
     "git-source": "^1.1.0",
     "package-json": "^2.3.1"
   }
