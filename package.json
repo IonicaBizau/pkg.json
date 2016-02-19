@@ -1,0 +1,31 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "Get the package.json content either from npm or from a git repository.",
+  "main": "lib/index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/IonicaBizau/package.json.git"
+  },
+  "keywords": [
+    "package",
+    "git",
+    "npm"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/package.json/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/package.json#readme",
+  "dependencies": {
+    "git-source": "^1.1.0",
+    "package-json": "^2.3.1"
+  }
+}
