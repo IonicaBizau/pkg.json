@@ -48,7 +48,22 @@ packageJson("git@github.com:IonicaBizau/git-stats.git", function (err, data) {
     //   ...
     //   _id: 'git-stats@2.9.2' }
 });
+
+packageJson("git@github.com:IonicaBizau/git-stats.git", "2.7.0", function (err, data) {
+    console.log(err || data.version);
+    // "2.7.0"
+});
 ```
+
+## Documentation
+
+### `packageJson(input, version, callback)`
+Fetches the `package.json` file contents from `npm` or a git repository.
+
+#### Params
+- **String** `input`: The package `npm` name or git url. The git urls are friendly, being parsed by [`git-source`](https://github.com/IonicaBizau/git-source).
+- **String** `version`: The `npm` package version or a git sha/tag/branch/etc.
+- **Function** `callback`: The callback function.
 
 ## How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
