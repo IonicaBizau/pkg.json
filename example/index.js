@@ -35,3 +35,8 @@ packageJson("git@github.com:IonicaBizau/git-stats.git", function (err, data) {
     //   ...
     //   _id: 'git-stats@2.9.2' }
 });
+
+packageJson("git@github.com:IonicaBizau/git-stats.git", "2.7.0", function (err, data) {
+    console.log(err || data.version);
+    // "2.7.0"
+});
