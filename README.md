@@ -8,7 +8,7 @@
 ## :cloud: Installation
 
 ```sh
-$ npm i --save package.json
+$ npm i --save package.json@latest
 ```
 
 
