@@ -61,6 +61,6 @@ Thanks! :sweat_smile:
 
 
 
-[1]: https://github.com/IonicaBizau/package.json/issues
+[1]: https://github.com/IonicaBizau/pkg.json/issues
 
 [2]: https://github.com/IonicaBizau/code-style

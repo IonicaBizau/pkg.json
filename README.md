@@ -1,14 +1,14 @@
 
-# package.json
+# pkg.json
 
- [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![AMA](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Version](https://img.shields.io/npm/v/package.json.svg)](https://www.npmjs.com/package/package.json) [![Downloads](https://img.shields.io/npm/dt/package.json.svg)](https://www.npmjs.com/package/package.json) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
+ [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![AMA](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Version](https://img.shields.io/npm/v/pkg.json.svg)](https://www.npmjs.com/package/pkg.json) [![Downloads](https://img.shields.io/npm/dt/pkg.json.svg)](https://www.npmjs.com/package/pkg.json) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > Get the package.json content either from npm or from a git repository.
 
 ## :cloud: Installation
 
 ```sh
-$ npm i --save package.json
+$ npm i --save pkg.json
 ```
 
 
@@ -17,7 +17,7 @@ $ npm i --save package.json
 
 
 ```js
-const packageJson = require("package.json");
+const packageJson = require("pkg.json");
 
 packageJson("git-stats", function (err, data) {
     console.log(err || data);
@@ -77,11 +77,6 @@ Fetches the `package.json` file contents from `npm` or a git repository.
 ## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
-## :dizzy: Where is this library used?
-If you are using this library in one of your projects, add it in this list. :sparkles:
-
-
- - [`ship-release`](https://github.com/IonicaBizau/ship-release#readme)—Publish new versions on GitHub and npm with ease.
 
 ## :scroll: License
 
