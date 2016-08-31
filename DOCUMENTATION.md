@@ -1,5 +1,4 @@
 ## Documentation
-
 You can see below the API reference of this module.
 
 ### `packageJson(input, version, callback)`

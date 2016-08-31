@@ -63,7 +63,6 @@ packageJson("git@github.com:IonicaBizau/git-stats.git", "2.7.0", function (err, 
 
 ## :memo: Documentation
 
-
 ### `packageJson(input, version, callback)`
 Fetches the `package.json` file contents from `npm` or a git repository.
 
