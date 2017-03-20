@@ -1,6 +1,6 @@
 {
   "name": "pkg.json",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "Get the package.json content either from npm or from a git repository.",
   "main": "lib/index.js",
   "directories": {
@@ -18,7 +18,7 @@
     "git",
     "npm"
   ],
-  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/IonicaBizau/pkg.json/issues"
@@ -33,12 +33,11 @@
     "bin/",
     "app/",
     "lib/",
-    "build/",
     "dist/",
     "src/",
+    "scripts/",
     "resources/",
     "menu/",
-    "scripts/",
     "cli.js",
     "index.js"
   ]
