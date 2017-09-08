@@ -1,6 +1,6 @@
 {
   "name": "pkg.json",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "description": "Get the package.json content either from npm or from a git repository.",
   "main": "lib/index.js",
   "directories": {
@@ -39,6 +39,9 @@
     "resources/",
     "menu/",
     "cli.js",
-    "index.js"
+    "index.js",
+    "bloggify.js",
+    "bloggify.json",
+    "bloggify/"
   ]
 }
