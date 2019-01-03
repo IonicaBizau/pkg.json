@@ -1,6 +1,6 @@
 {
   "name": "pkg.json",
-  "version": "2.0.6",
+  "version": "2.0.7",
   "description": "Get the package.json content either from npm or from a git repository.",
   "main": "lib/index.js",
   "directories": {
